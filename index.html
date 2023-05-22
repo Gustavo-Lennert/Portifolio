@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./view/images/code.svg" type="image/x-icon">
+
+        <!-- Biblioteca ScrollReveal -->
+        <script src="./controller/js/scrollreveal.js"></script>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="./view/style/bootstrap/bootstrap-icons.css">
+        <link href="./view/style/bootstrap/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="./controller/bootstrap/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- Css -->
+        <link rel="stylesheet" href="./view/style/contact.css">
+        <link rel="stylesheet" href="./view/style/intro.css">
+        <link rel="stylesheet" href="./view/style/index.css">
+        <link rel="stylesheet" href="./view/style/menu.css">
+        <link rel="stylesheet" href="./view/style/about.css">
+        
+        <title>Portfólio - Gustavo Martin</title>
+    </head>
+    <body id="inicio">
+        <header>
+            <nav class="menu fixed-top">
+                <div class="title-menu ">
+                    <svg fill="currentColor" class="bi bi-code-square icon-name" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+                    </svg>
+                    <h3 class="logo">Gustavo martin<h3>  
+                </div>
+
+                <svg  fill="currentColor" class="bi bi-list mobile-menu" viewBox="0 0 16 16" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+
+                <div class="offcanvas bg-header offcanvas-end" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                        <svg  fill="currentColor" class="bi bi-x-lg close-button" viewBox="0 0 16 16" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                        </svg>
+                    </div>
+                    <div class="offcanvas-body bg-body ">  
+                        <ul class="nav-list">
+                            <li><abbr title="GitHub">
+                                <a target="_blank" href="https://github.com/Gustavo-Lennert"><img class="icon-menu" src="./view/images/github.png" alt="github-icon"></a>
+                            </li></abbr>
+                            <li><abbr title="LinkedIn">
+                                <a target="_blank" href="https://www.linkedin.com/in/gustavo-martin-lennert/"><img class="icon-menu" src="./view/images/linkedin.png" alt="linkedin-icon">
+                                </a>
+                            </li></abbr>
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <!-- <li><a href="#projetos">Projetos</a></li> -->
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section id="inicio" class="inicio">
+                <div class="align">
+                    <div class="grid-perfil">
+                        <div class="img-perfil">
+                            <img class="details-img" src="./view/images/perfil.jpeg" alt="img-perfil">
+                        </div>
+                        <div class="text-intro">
+                            <h2>Olá, bem vindo!</h2><br>
+                            <p>Me chamo Gustavo, tenho 21 anos e sou um estudante de ciência da computação com formação em Técnico de Desenvolvimento de Sistemas. Sou apaixonado por tecnologia e tudo o que envolve a criação de soluções inovadoras. Fique à vontade para conhecer mais sobre mim, ou entrar em contato. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow-scroll">
+                    <svg id="arrow" fill="currentColor" class="bi bi-arrow-down-circle arrow"  viewBox="0 0 16 16">
+                        <path  fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </div>
+            </section>
+   
+            <section id="sobre">
+                <div class="row">
+                    <div class="col-md-12 align">
+                        <svg  fill="currentColor" class="bi bi-code-slash icon-compt" viewBox="0 0 16 16">
+                            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                        </svg>
+                        <h2 class="title-compt">Competências</h2>
+                    </div>
+                    <div class="col-md-12 align">
+                        <div class="box-icons">
+                            <div class="align-icons">
+                                <div class="align-progress">
+                                    <div class="progress">
+                                        <div id="barra-html" class="progress-bar progress-bar-striped" role="progressbar" ></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./view/images/html.png" class="icon-about" id="html" alt="html">
+                                </div>
+                                <div>
+                                    <label class="label-icon" id="html">HTML</label>
+                                </div>
+                            </div>
+                            <div class="align-icons">
+                                <div class="align-progress">
+                                    <div class="progress">
+                                        <div id="barra-css" class="progress-bar progress-bar-striped" role="progressbar" ></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./view/images/css-3.png" class="icon-about" id="css" alt="css">
+                                </div>
+                                <div>
+                                    <label class="label-icon" id="css">CSS</label>
+                                </div>
+                            </div>
+                            <div class="align-icons">
+                                <div class="align-progress">
+                                    <div class="progress">
+                                        <div id="barra-bootstrap" class="progress-bar progress-bar-striped" role="progressbar" ></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./view/images/bootstrap.png" class="icon-about" id="bootstrap"  alt="bootstrap">
+                                </div>
+                                <div>
+                                    <label class="label-icon" id="bootstrap">Bootstrap</label>
+                                </div>
+                            </div>
+                            <div class="align-icons">
+                                <div class="align-progress">
+                                    <div class="progress">
+                                        <div id="barra-js" class="progress-bar progress-bar-striped" role="progressbar" ></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./view/images/js.png" class="icon-about" id="js" alt="js">
+                                </div>
+                                <div>
+                                    <label class="label-icon" id="js">JavaScript</label>
+                                </div>
+                            </div>
+                            <div class="align-icons">
+                                <div class="align-progress">
+                                    <div class="progress">
+                                        <div id="barra-java" class="progress-bar progress-bar-striped" role="progressbar" ></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./view/images/java.png" class="icon-about" id="java" alt="java">
+                                </div>
+                                <div>
+                                    <label class="label-icon" id="java">Java</label>
+                                </div>
+                            </div>
+                            <div class="align-icons">
+                                 <div class="align-progress">
+                                    <div class="progress">
+                                        <div id="barra-php" class="progress-bar progress-bar-striped" role="progressbar" ></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./view/images/php.png" class="icon-about" id="php" alt="php">
+                                </div>
+                                <div>
+                                    <label class="label-icon" id="php">PHP</label>
+                                </div>
+                            </div>
+                            <div class="align-icons">
+                                <div class="align-progress">
+                                   <div class="progress">
+                                       <div id="barra-c" class="progress-bar progress-bar-striped" role="progressbar" ></div>
+                                   </div>
+                               </div>
+                               <div>
+                                   <img src="./view/images/c.png" class="icon-about" id="c" alt="c">
+                               </div>
+                               <div>
+                                   <label class="label-icon" id="c">C++</label>
+                               </div>
+                           </div>
+                            <div class="align-icons">
+                                <div class="align-progress">
+                                   <div class="progress">
+                                       <div id="barra-spring" class="progress-bar progress-bar-striped" role="progressbar" ></div>
+                                   </div>
+                               </div>
+                               <div>
+                                   <img src="./view/images/spring.png" class="icon-about" id="spring" alt="spring">
+                               </div>
+                               <div>
+                                   <label class="label-icon" id="spring">Spring Boot</label>
+                               </div>
+                            </div>
+                            <div class="align-icons">
+                                <div class="align-progress">
+                                    <div class="progress">
+                                        <div id="barra-angular" class="progress-bar progress-bar-striped" role="progressbar" ></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./view/images/angular.png" class="icon-about" id="angular" alt="angular">
+                                </div>
+                                <div>
+                                    <label class="label-icon" id="angular">Angular</label>
+                                </div>
+                            </div>
+                            <div class="align-icons">
+                                 <div class="align-progress">
+                                    <div class="progress">
+                                        <div id="barra-sql" class="progress-bar progress-bar-striped" role="progressbar" ></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./view/images/sql.png" class="icon-about" id="sql" alt="sql">
+                                </div>
+                                <div>
+                                    <label class="label-icon" id="sql">SQL</label>
+                                </div>
+                            </div>
+                            <div class="align-icons">
+                                <div class="align-progress">
+                                    <div class="progress">
+                                        <div id="barra-git" class="progress-bar progress-bar-striped" role="progressbar" ></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./view/images/git.png" class="icon-about" id="git" alt="git">
+                                </div>
+                                <div>
+                                    <label class="label-icon" id="git">Git</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="align">
+                    <svg fill="currentColor" class="bi bi-rocket-takeoff nave" viewBox="0 0 16 16">
+                        <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z"/>
+                        <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z"/>
+                        <path d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
+                    </svg>
+                </div>
+                <div class="row space-btwn">
+                    <div class="col-md-12">
+                        <div class="align">
+                            <div class="box-formation">
+                                <div class="border-formation">
+                                    <div class="box-title-formation">
+                                        <div class="align border-bottom">
+                                            <svg fill="currentColor" class="bi bi-award  icon-title" viewBox="0 0 16 16">
+                                                <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
+                                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                                            </svg>
+                                            <h2 class="title-formation">Formações</h2>
+                                        </div>
+                                    </div>
+                                    <div class="content-formation text-center">
+                                        <div class="block-info">
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <img src="view/images/universidade.png" class="icon-formation" alt="icon-formation">
+                                                <h4 class="bold">Bacharel - Ciência da Computação</h4>
+                                            </div>
+                                            <span>UBC - Universidade Braz Cubas</span><br>
+                                            <span>Jan. de 2022 - Dez de 2025</span>
+                                        </div>
+                                        <div class="block-info">
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <img src="view/images/certificado.png" class="icon-formation" alt="icon-formation">
+                                                <h4 class="bold">Técnico - Desenvolvimento de Sistemas</h4>
+                                            </div>
+                                            <span>ETEC - Hortoândia</span><br>
+                                            <span>Jan. de 2019 - Jun de 2021</span>
+                                        </div>
+                                        <hr class="div-hr">
+                                        <div class="courses">
+                                            <div class="align">
+                                                <div class="block-info extra border-bottom align">
+                                                    <svg fill="currentColor" class="bi bi-bookmark-plus icon-formation" viewBox="0 0 16 16">
+                                                        <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                                        <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+                                                    </svg>
+                                                    <h4 class="bold">Extra</h4>
+                                                </div>
+                                            </div>
+                                            <div class="block-info">
+                                                <h4 class="bold">JavaScript / TypeScript (Full-Stack)</h4>
+                                                <span>Udemy</span>
+                                            </div>
+                                            <div class="block-info">
+                                                <h4 class="bold">Java / POO (Programação Orientada a Objeto)</h4>
+                                                <span>Udemy</span>
+                                            </div>
+                                            <div class="block-info">
+                                                <h4 class="bold">Angular 2(v15+) / TypeScript</h4>
+                                                <span>Udemy</span>
+                                            </div>
+                                            <div class="block-info">
+                                                <h4 class="bold">JavaScript</h4>
+                                                <span>Curso em Vídeo</span>
+                                            </div>
+                                            <div class="block-info">
+                                                <h4 class="bold">HTML5 / CSS3</h4>
+                                                <span>Curso em Vídeo</span>
+                                            </div>
+                                            <div class="block-info">
+                                                <h4 class="bold">Informática</h4>
+                                                <span>MicroCamp</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <article class="align">
+                   <button type="button" class="btn-cv btn align" onclick="cvDownload()">
+                        <svg fill="currentColor" class="bi bi-file-earmark-person icon-cv" viewBox="0 0 16 16">
+                            <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                            <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"></path>
+                        </svg>
+                        Currículo
+                    </button>
+                </article>
+            </section>
+        </main>
+        <section id="contato">
+            <div class="row">
+                <div class="col-md-12">
+                    <footer class="py-3 bg-dark">
+                        <p class="text-center text-muted border-bottom pb-3 mb-3 text-phrase">"O futuro está nas mãos de quem abraça a evolução tecnológica."</p>
+                        <p class="text-center text-muted">Contato</p>
+            
+                        <div class="align contact">
+                            <abbr title="Whatsapp">
+                                <svg fill="currentColor" class="bi bi-whatsapp icon-contact" viewBox="0 0 16 16" onclick="wpp()">
+                                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                                </svg>
+                            </abbr>
+                            <abbr title="E-mail">
+                                <svg  fill="currentColor" class="bi bi-envelope icon-contact" viewBox="0 0 16 16" onclick="email()">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                </svg>
+                            </abbr>
+                            <abbr title="LinkedIn">
+                                <svg fill="currentColor" class="bi bi-linkedin icon-contact" viewBox="0 0 16 16" onclick="linkedin()">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                </svg>
+                            </abbr>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </section>
+        <script src="./controller/js/links.js"></script>
+        <script src="./controller/js/visibility.js"></script>
+    </body>
+</html>
