@@ -16,10 +16,3 @@ function email(){
 function linkedin(){
     window.open("https://www.linkedin.com/in/gustavo-martin-lennert/", "_blank");
 }
-
-function cvDownload(){ 
-    var link = document.createElement('a');
-    link.href = '../cv_Gustavo_Lennert.pdf';
-    link.download = 'cv_Gustavo_Lennert.pdf';
-    link.click();
-}
