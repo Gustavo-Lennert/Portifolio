@@ -175,30 +175,34 @@
 
 @-webkit-keyframes pulse {
     0% {
-    -webkit-transform: scale(1);
-
+        -webkit-transform: scale(1);
     }
     100% {
-    -webkit-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
     }
-    }
+}
 
-    @keyframes pulse {
+@keyframes pulse {
     0% {
-    transform: scale(1);
-
+        transform: scale(1);
     }
     100% {
-    transform: scale(1.2);
+        transform: scale(1.2);
     }
 }
 
 
 
 @keyframes jumping{
-    from {transform: translateY(-15px);}
-    50% {transform: translateY(0);}
-    to {transform: translateY(-15px);}
+    from {
+        transform: translateY(-15px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-15px);
+    }
 }
 
    
