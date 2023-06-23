@@ -22,7 +22,7 @@ function animationIcons() {
   var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
   // Obter a posição atual do scroll vertical
-  var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+  var scrollTop = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop;
 
   // Calcular o valor do meio da área visível na tela
   var middlePosition = scrollTop + (windowHeight / 2);
@@ -51,6 +51,7 @@ function animationIcons() {
   let spring = document.getElementById("barra-spring");
   let sql = document.getElementById("barra-sql");
   let git = document.getElementById("barra-git");
+  let mysql = document.getElementById("barra-mysql");
 
   //Valores de distância dos elementos ao topo da página:
   //Títulos
@@ -69,6 +70,7 @@ function animationIcons() {
   let springTop = spring.offsetTop;
   let sqlTop = sql.offsetTop;
   let gitTop = git.offsetTop;
+  let mysqlTop = mysql.offsetTop;
 
 
   // Verificar se a posição do scroll atingiu o ponto desejado
@@ -156,6 +158,13 @@ function animationIcons() {
     git.style.animation = "animate-positive 2s";
     git.style.width = "48%";
   }
+
+  if (middlePosition >=  mysqlTop - 350) { 
+    mysql.style.backgroundColor = "#23576f";
+    mysql.style.animation = "animate-positive 2s";
+    mysql.style.width = "70%";
+  }
+
 
 }
 // Chamada da função acima

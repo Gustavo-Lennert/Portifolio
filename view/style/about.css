@@ -33,6 +33,7 @@
     height: 180px;
     margin: 20px !important;
     visibility: hidden;
+    cursor: pointer;
 }
 
 .label-icon{
@@ -212,6 +213,9 @@
     text-decoration-color: #d13400;
 }
 
+#mysql{
+    text-decoration-color: #23576f;
+}
 
 /* Responsive */
 @media (max-width: 1360px){
